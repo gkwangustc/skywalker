@@ -30,7 +30,15 @@ h6 {
 .row .col[class*=pull-] {
     position: relative
 }
-
+.kg-card.kg-image-card figcaption {
+    text-align: center;
+    opacity: 0.68;
+}
+.kg-card.kg-image-card img {
+    margin-left: auto; 
+    margin-right:auto; 
+    display:block;
+}
 .btn,
 .btn-large,
 a {
